@@ -53,3 +53,4 @@ const App = () => {
 
 export default App;
 /*https://codepen.io/hartzis/pen/VvNGZP*/
+/*http://fh7922mg.bget.ru/articles/file-api-in-javascript/file-api-in-javascript.html*/

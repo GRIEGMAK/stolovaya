@@ -1,6 +1,6 @@
 import React from 'react';
 import s from "./../styles/Header.module.sass"
-import { NavLink } from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -9,7 +9,7 @@ const Header = () => {
                 <NavLink to="/o-kompanii">Компания</NavLink>
                 <NavLink to="/oborudovanie-dlya-pishhebloka">Портфолио</NavLink>
                 <NavLink to="/proektirovanie">Проектирование</NavLink>
-                <a>Презентация</a>
+                <a target="_blank" href="/upload/prezentaciya_stolovaya-ru.pdf">Презентация</a>
                 <NavLink to="/predlozheniya/dlya-stroitelnykh-kompaniy">Застройщикам</NavLink>
                 <NavLink to="/predlozheniya/gosydarstvenym_zakazchikam">Гос.заказчикам</NavLink>
                 <NavLink to="/predlozheniya/tablet-pitanie">Таблет-питание</NavLink>
