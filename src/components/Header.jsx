@@ -1,24 +1,26 @@
 import React from 'react';
+import s from "./../styles/Header.module.sass"
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div>
+        <div className={s.header}>
             <div>
-                <a>Компания</a>
-                <a>Портфолио</a>
-                <a>Проектирование</a>
+                <NavLink to="/o-kompanii">Компания</NavLink>
+                <NavLink to="/oborudovanie-dlya-pishhebloka">Портфолио</NavLink>
+                <NavLink to="/proektirovanie">Проектирование</NavLink>
                 <a>Презентация</a>
-                <a>Застройщикам</a>
-                <a>Гос.заказчикам</a>
-                <a>Таблет-питание</a>
-                <a>Сервиз</a>
-                <a>Контакты</a>
+                <NavLink to="/predlozheniya/dlya-stroitelnykh-kompaniy">Застройщикам</NavLink>
+                <NavLink to="/predlozheniya/gosydarstvenym_zakazchikam">Гос.заказчикам</NavLink>
+                <NavLink to="/predlozheniya/tablet-pitanie">Таблет-питание</NavLink>
+                <NavLink to="/servis-i-remont">Сервис</NavLink>
+                <NavLink to="/kontakty">Контакты</NavLink>
                 <a>info@yandex.ru</a>
                 <a>8(982)983-28-09</a>
             </div>
             <hr/>
             <div>
-                <img alt="Столовая.ру"/>
+                <NavLink to="/"><img alt="Столовая.ру"/></NavLink>
                 <select>
                     <option>Все</option>
                     <option>Весовое</option>
@@ -41,17 +43,19 @@ const Header = () => {
             </div>
             <hr/>
             <div>
-                <a>Тепловое</a>
-                <a>Холодильное</a>
-                <a>Электромеханическое</a>
-                <a>Посудомоечное</a>
-                <a>Хлебопекарное</a>
-                <a>Линии раздачи</a>
-                <a>Нейтральное</a>
-                <a>Для фаст фуда</a>
-                <a>Для залов</a>
-                <a>Вспомогательное</a>
-                <a>Для магазинов</a>
+                <small>
+                    <a>Тепловое</a>
+                    <a>Холодильное</a>
+                    <a>Электромеханическое</a>
+                    <a>Посудомоечное</a>
+                    <a>Хлебопекарное</a>
+                    <a>Линии раздачи</a>
+                    <a>Нейтральное</a>
+                    <a>Для фаст фуда</a>
+                    <a>Для залов</a>
+                    <a>Вспомогательное</a>
+                    <a>Для магазинов</a>
+                </small>
             </div>
             <hr/>
         </div>

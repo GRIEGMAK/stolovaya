@@ -1,8 +1,9 @@
 import React from 'react';
+import s from "./../styles/Top.module.sass"
 
 const Top = () => {
     return (
-        <div>
+        <div className={s.top}>
             <div>
                 <div>
                     <h3>Информация</h3>
