@@ -3,7 +3,7 @@ import s from "./../styles/AboutCompany.module.sass"
 
 const AboutCompany = () => {
     return (
-        <div>
+        <div className={s.backColor}>
             <div>
                 <h2>О компании</h2>
                 <div>

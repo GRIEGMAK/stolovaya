@@ -1,8 +1,9 @@
 import React from 'react';
+import s from "./../styles/AboutCompany.module.sass"
 
 const Portfolio = () => {
     return (
-        <div>
+        <div className={s.backColor}>
             <div>
                 <h3>Оборудование для пищеблока</h3>
                 <div>

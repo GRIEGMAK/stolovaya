@@ -1,8 +1,9 @@
 import React from 'react';
+import s from "./../styles/AboutCompany.module.sass"
 
 const Design = () => {
     return (
-        <div>
+        <div className={s.backColor}>
             <div>
                 <h3>Профессиональное проектирование позволяет оптимизировать бюджет и повысить эффективность предприятия
                     питания!</h3>
@@ -99,10 +100,28 @@ const Design = () => {
                 </ol>
             </div>
             <div>
-                <h3>Отправить заявку</h3>
-                Отправьте заявку на проектирвоание объекта и мы перезвоним вам в течении дня, или в указанное вами время.
                 <div>
-                    
+                    <form>
+                        <h3>Отправить заявку</h3>
+                        Отправьте заявку на проектирвоание объекта и мы перезвоним вам в течении дня, или в указанное вами время.
+                        <div>
+                            Имя
+                            <input type="text" />
+                        </div>
+                        <div>
+                            Фамилия
+                            <input type="text" />
+                        </div>
+                        <div>
+                            Удобное время
+                            <input type="text" />
+                        </div>
+                        <div>
+                            Комментарий
+                            <textarea placeholder="Комментарий..." />
+                        </div>
+                        <button>Отправить</button>
+                    </form>
                 </div>
             </div>
         </div>

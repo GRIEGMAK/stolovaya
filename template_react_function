@@ -9,3 +9,9 @@ const App = () => {
 };
 
 export default App;
+
+<div>
+    <h3></h3>
+    <div></div>
+    <img alt="" />
+</div>

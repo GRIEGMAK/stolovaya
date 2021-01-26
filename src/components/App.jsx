@@ -46,7 +46,7 @@ const App = () => {
                     <Contacts />
                 </Route>
             </Switch>
-            <Top/>
+            {/*<Top/>*/}
         </BrowserRouter>
     )
 };
