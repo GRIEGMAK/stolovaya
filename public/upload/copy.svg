@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_defaultoperator_dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Chat-main-defaults" sketch:type="MSArtboardGroup" transform="translate(-282.000000, -58.000000)" fill-opacity="0.5" fill="#333E48">
+            <g id="Chat" sketch:type="MSLayerGroup">
+                <g id="Top" transform="translate(161.000000, 58.000000)" sketch:type="MSShapeGroup">
+                    <path d="M177,28 C177,43.4639186 164.463919,56 149,56 C133.536081,56 121,43.4639186 121,28 C121,12.5360814 133.536081,0 149,0 C164.463919,0 177,12.5360814 177,28 Z M137.84383,14.4375685 L160.593739,14.4375685 C163.104461,14.4375685 165.843465,17.1926428 165.843465,19.6876598 L165.843465,33.6872945 C165.843465,36.181581 163.104461,38.9373859 160.593739,38.9373859 L151.703209,39.0688756 L137.953405,49.8747717 L141.115732,39.0378294 L137.84383,38.9373859 C135.333107,38.9373859 132.594104,36.181581 132.594104,33.6872945 L132.594104,19.6876598 C132.594104,17.1926428 135.333838,14.4375685 137.84383,14.4375685 Z" id="icon_defaultoperator_dark"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

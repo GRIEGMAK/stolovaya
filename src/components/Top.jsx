@@ -1,5 +1,6 @@
 import React from 'react';
 import s from "./../styles/Top.module.sass"
+import {NavLink} from "react-router-dom";
 
 const Top = () => {
     return (
@@ -8,15 +9,15 @@ const Top = () => {
                 <div>
                     <h3>Информация</h3>
 
-                    <a>Компания</a>
-                    <a>Портфолио</a>
-                    <a>Проектирование</a>
-                    <a>Ресторанам</a>
-                    <a>Застройщикам</a>
-                    <a>Гос.заказчикам</a>
-                    <a>Таблет-питание</a>
-                    <a>Сервис</a>
-                    <a>Контакты</a>
+                    <NavLink to="/o-kompanii">Компания</NavLink>
+                    <NavLink to="/oborudovanie-dlya-pishhebloka">Портфолио</NavLink>
+                    <NavLink to="/proektirovanie">Проектирование</NavLink>
+                    <NavLink to="/predlozheniya/restoranam">Ресторанам</NavLink>
+                    <NavLink to="/predlozheniya/dlya-stroitelnykh-kompaniy">Застройщикам</NavLink>
+                    <NavLink to="/predlozheniya/gosydarstvenym_zakazchikam">Гос.заказчикам</NavLink>
+                    <NavLink to="/predlozheniya/tablet-pitanie">Таблет-питание</NavLink>
+                    <NavLink to="/servis-i-remont">Сервис</NavLink>
+                    <NavLink to="/kontakty">Контакты</NavLink>
                 </div>
                 <div>
                     <h3>Оборудование</h3>

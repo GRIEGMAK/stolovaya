@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from "./Header";
 import Top from "./Top";
-import MainPart from "./MainPart";
+import MainPart from "./mainPart/MainPart";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
-import AboutCompany from "./AboutCompany";
-import Portfolio from "./Portfolio";
-import Design from "./Design";
-import OffersForBuildCompany from "./OffersForBuildCompany";
-import Contacts from "./Contacts";
-import Service from "./Service";
-import TabletFood from "./TabletFood";
-import OffersForGovernmentCustomers from "./OffersForGovernmentCustomers";
+import AboutCompany from "./mainPart/AboutCompany";
+import Portfolio from "./mainPart/Portfolio";
+import Design from "./mainPart/Design";
+import OffersForBuildCompany from "./subComponent/OffersForBuildCompany";
+import Contacts from "./mainPart/Contacts";
+import Service from "./mainPart/Service";
+import TabletFood from "./subComponent/TabletFood";
+import OffersForGovernmentCustomers from "./subComponent/OffersForGovernmentCustomers";
 
 
 const App = () => {
@@ -46,7 +46,7 @@ const App = () => {
                     <Contacts />
                 </Route>
             </Switch>
-            {/*<Top/>*/}
+            <Top/>
         </BrowserRouter>
     )
 };

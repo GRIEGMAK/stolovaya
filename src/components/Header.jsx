@@ -38,7 +38,7 @@ const Header = () => {
                 </select>
                 <input type="text"/>
                 <button>Поиск</button>
-                <a>Мы на портале поставщиков</a>
+                <a target="_blank" href="https://zakupki.mos.ru/">Мы на портале поставщиков</a>
                 <button>корзина: 0 руб</button>
             </div>
             <hr/>
